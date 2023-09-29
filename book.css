@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    background-color: #ffd0a3;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.logo{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+ }
+
+ .logo a span{
+  color:lightseagreen ;
+  transition: all 0.3s ease;
+ }
+
+  
+  .booking-box {
+    width: 360px;
+    height: 550px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+  }
+
+  .time-box {
+    width: 360px;
+    height: 550px;
+    margin: auto;
+    border-radius: 30px;
+  }
+  
+  span{
+    color: lightseagreen;
+    font-weight: 300px;
+  }
+  
+  h2 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 30px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+ 
+  form select {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  button[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 35px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  
