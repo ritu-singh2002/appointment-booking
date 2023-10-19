@@ -10,8 +10,8 @@
 html{
     scroll-behavior: smooth;
 }
-
-/* custom scroll bar */
+/* 
+ custom scroll bar 
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -24,7 +24,7 @@ html{
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
-}
+} */
 
 /* all similar content styling codes */
 section{
@@ -79,10 +79,12 @@ section .title::after{
 .navbar{
     position: fixed;
     width: 100%;
+    height: 80px;
     z-index: 999;
-    padding: 30px 0;
+    padding: 20px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background-color: lightseagreen;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -164,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner1.png") no-repeat center;
+    background: url("bg.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -180,25 +182,26 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 23px;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 450;
     
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
+    color: lightseagreen;
 
     
 }
 .home .home-content .text-3{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
-    color: lightseagreen;
     
 }
+
 
 
 .home .home-content a{
@@ -229,7 +232,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 100px;
 }
 .about .about-content .right{
     width: 55%;
@@ -263,7 +266,7 @@ section .title::after{
 }
 
 
-/* contact section styling */
+/* contact section styling
 .contact .title::after{
     content: "get in touch";
 }
@@ -357,7 +360,8 @@ section .title::after{
 .right form .button-area button:hover{
   color: lightseagreen;
   background: none;
-}
+} */
+
 /* footer section styling */
 footer{
     background: #111;
