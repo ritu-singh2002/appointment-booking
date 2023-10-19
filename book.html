@@ -5,41 +5,45 @@
     <link rel="stylesheet" href="book.css" />
   </head>
   <body>
-    <div class="logo"><a href="index.html">Book Your <span>Therapy.</span></a></div>
-    <div class="booking-box">
-        <h2>Appointment Booking</h2>
-        <form action = "appointment.php" method = "post">
-            <label class = "top-label" for="username">Full Name</label>
-            <input type="text" placeholder="" name="full_name" id="username" required>
-            <label for="email">Email</label>
-            <input type="email" placeholder="" name="email" id="email" required>
-            <label for="gender">Gender</label>
-            <select id = "gender" name = "gender" required>
-                <option value="gender"></option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="">Date</label>
-            <input type="date" placeholder="" name = "date" required>
-            <label for="slot">Time Slot</label>
-            <select id = "slot"  name = "slot" required>
-                <option value="slot"></option>
-                <option value="S1">11:00 AM - 12:00 PM</option>
-                <option value="S2">12:00 PM - 1:00 PM</option>
-                <option value="S3">1:00  PM - 2:00 PM</option>
-                <option value="S4">2:00  PM - 3:00 PM</option>
-                <option value="S5">3:00  PM - 4:00 PM</option>
-            </select>
-            <button type="submit" class="btn" name="booking">Confirm Booking</button>
-        <closeform></closeform>
-        </form>
+    <div class="logo">
+      <a href="index.html">Book Your <span>Therapy.</span></a>
     </div>
-   <!--INSERT INTO `appointment` (`S.No.`, `Full Name`, `Email`, `Gender`, `Date`, `Time Slot`) VALUES ('1', 'Ritu Singh', 'ritusingh.19.or@gmail.com', 'Female', '2023-09-29', '11:00 AM - 12:00 PM');--> 
+    <div class="booking-box">
+      <h2>Appointment Booking</h2>
+      <form action="appointment.php" method="post">
+        <label class="top-label" for="username">Full Name</label>
+        <input
+          type="text"
+          placeholder=""
+          name="full_name"
+          id="username"
+          required
+        />
+        <label for="email">Email</label>
+        <input type="email" placeholder="" name="email" id="email" required />
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="gender"></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="">Date</label>
+        <input type="date" placeholder="" name="date" required />
+        <label for="slot">Time Slot</label>
+        <select id="slot" name="slot" required>
+          <option value="slot"></option>
+          <option value="S1">11:00 AM - 12:00 PM</option>
+          <option value="S2">12:00 PM - 1:00 PM</option>
+          <option value="S3">1:00 PM - 2:00 PM</option>
+          <option value="S4">2:00 PM - 3:00 PM</option>
+          <option value="S5">3:00 PM - 4:00 PM</option>
+        </select>
+        <button type="submit" class="btn" name="booking">
+          Confirm Booking
+        </button>
+        <closeform></closeform>
+      </form>
+    </div>
   </body>
 </html>
-
-
-
-
-
